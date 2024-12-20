@@ -28,6 +28,7 @@
     align-items: center;
     position: absolute;
     opacity: 0;
+    transition: 0.3s ease-in-out;
 }
 
 .slide.mostrar {
@@ -58,6 +59,7 @@
     border-radius: 10px;
     position: absolute;
     left: 10%;
+    transition: 0.3s ease-in-out;
 }
 
 .container-principal .slide .conteudo .titulo {
@@ -68,7 +70,8 @@
 
 .container-principal .slide .conteudo .texto {
     margin-bottom: 20px;
-    line-height: 23px;
+    line-height: 25px;
+    text-align: justify;
 }
 
 .container-principal .slide .conteudo .botao {
@@ -81,9 +84,4 @@
 
 .container-principal .seta-avancar {
     right: 0;
-}
-
-.opacidade {
-    opacity: 0.9;
-    cursor: default;
 }
