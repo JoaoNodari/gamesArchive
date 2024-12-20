@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.container-principal {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-principal .seta-voltar {
+    transform: rotate(180deg);
+}
+
+.container-principal .seta {
+    position: absolute;
+    margin: 0 20px;
+    z-index: 1;
+}
+
+.container-principal .slide {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    opacity: 0;
+}
+
+.slide.mostrar {
+    opacity: 1;
+}
+
+.warface {
+    background-image: url("../img/warface.png");
+}
+
+.minecraft {
+    background-image: url("../img/minecraft.jpg");
+}
+
+.pubg {
+    background-image: url("../img/pubg.jpg");
+}
+
+.r6 {
+    background-image: url("../img/rainbosix.webp");
+}
+
+
+.container-principal .slide .conteudo {
+    background-color: #FFF;
+    max-width: 650px;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10%;
+}
+
+.container-principal .slide .conteudo .titulo {
+    margin-bottom: 20px;
+    font-family: "Lilita One", serif;
+    font-size: 40px;
+}
+
+.container-principal .slide .conteudo .texto {
+    margin-bottom: 20px;
+    line-height: 23px;
+}
+
+.container-principal .slide .conteudo .botao {
+    font-weight: 600;
+}
+
+.container-principal .imagem-seta {
+    width: 50px;
+}
+
+.container-principal .seta-avancar {
+    right: 0;
+}
+
+.opacidade {
+    opacity: 0.9;
+    cursor: default;
+}
